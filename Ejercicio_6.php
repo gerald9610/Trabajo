@@ -15,7 +15,7 @@ echo "<h2>".$_GET['apellido']."<h2>";
 
 if (is_numeric($_GET['edad'])&& $_GET['edad'] >=1 )
 {
-    echo "<h3>Bienvenido" "<br>" .$_GET['nombre']."" .$_GET['apellido']."</h3>";
+    echo "<h3> Bienvenido"  .$_GET['nombre']. "" .$_GET['apellido']."</h3>";
 
 }
 else
