@@ -29,7 +29,7 @@ print_r ($mifechaArr);
 $MiArregloReves = array_reverse($miArreglo);
 
 echo "<br><br>";
-print_r ($MiArregloReves);
+print_r ($MiArregloReves);//este nuevo arreglo loe elementos en forma inversa
 
 ?>
 </body>
