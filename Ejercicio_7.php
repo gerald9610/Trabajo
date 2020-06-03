@@ -15,11 +15,11 @@ for ($i=1; $i<=100; $i++) {
 function primo($num)
 {
     if ($num == 2 || $num == 3 || $num == 5 || $num == 7) {
-        echo "<h1>El número ".$num." es primo.</h3>";
+        echo "<br>El número ".$num." es primo";
         
        return True;
     } else {
-        echo "<h1>El número ".$num." no es primo.</h1>";
+        echo "<br>El número ".$num." no es primo";
 
         // comprobamos si es par
         if ($num % 2 != 0) {
