@@ -5,7 +5,7 @@
 <!DOCTYPE HTML>
 <html><head>
 <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-<title>TP 05/09</title></head>
+<title>ejercicio</title></head>
 <body style="text-align: center;">
 <h1>Ingrese un número:</h1>
 <form action="tp.php" method="get">
@@ -16,7 +16,7 @@ Número:<input type="text" name="num"><input type="submit" value="Ver lista">
 <html>
 <head>
 echo "<html><head><meta charset="UTF-8"></head>";
-<title>TP 05/09</title></head>
+<title>ejercicio</title></head>
 <body style="text-align: center;">
 <?php
 $num=$_GET['num'];
@@ -25,10 +25,10 @@ if (es_primo($num)) {
    echo "<h1>El número $num es primo</h1>";
 } else {
    //Si devolvió false:
-   echo "<h1>El número $num no es primo.</h1> <p>Los primos menores que $num son: ";
+   echo "<h1>El número ".$num." no es primo.</h1>"; 
    // La función devuelve un array, que es recorrido en el foreach.
    foreach(lista_de_primos($num) as $n) echo "$n ";
-   echo '</p>';   
+   echo "<p>Los primos menores que ".$num." son: ";   
 }
 ?>
 </body></html>
