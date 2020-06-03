@@ -15,7 +15,8 @@ for ($i=1; $i<=100; $i++) {
 function primo($num)
 {
     if ($num == 2 || $num == 3 || $num == 5 || $num == 7) {
-        echo "<br>El número ".$num." es primo";
+        
+        echo "<br> El número"  .$_GET['primo']. "";
        return True;
     } else {
         echo "<br>El número ".$num." no es primo";
