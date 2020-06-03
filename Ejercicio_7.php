@@ -47,7 +47,7 @@ function primo($num)
 <form>
 <h4>Determinar si un valor es primo</h4>
  
-<input type="primo" id="valor" value="" placeholder="introduce un valor numérico">
+<input type="text" id="valor" value="" placeholder="introduce un valor numérico">
 <input type="submit" value ="ingresar">
  
 </form>
