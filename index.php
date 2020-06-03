@@ -8,6 +8,7 @@
 <li><a href="Ejercicio_4.php" target="_new">Ejercicio 4</li>
 <li><a href="Ejercicio_5.php" target="_new">Ejercicio 5</li>
 <li><a href="Ejercicio_6.php" target="_new">Ejercicio 6</li>
+<li><a href="Ejercicio_7.php" target="_new">Ejercicio 7</li>
 </ul>
 
 </body>
