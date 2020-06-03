@@ -8,18 +8,12 @@
 
 
 
-for ($i=1; $i<=100; $i++) {
-    if (primo($i)) {
-        echo "<br>El número ".$i." es primo";
-    } else {
-        echo "<br>El número ".$i." NO es primo";
-    }
-}
  
-
 function primo($num)
 {
     if ($num == 2 || $num == 3 || $num == 5 || $num == 7) {
+        printf("Cuantos primos desea mostrar: ");
+        echo "<h3> Numeros Primos"  .$_GET['primo']."</h3>";
         return True;
     } else {
         // comprobamos si es par
