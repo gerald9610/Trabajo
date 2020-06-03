@@ -4,13 +4,13 @@
 <h1>Ejercicio 7</h1>
 
 <?php
-
+for ($i=1; $i<=100; $i++) {
     if (primo($i)) {
         echo "<br>El número ".$i." es primo";
     } else {
         echo "<br>El número ".$i." NO es primo";
     }
-
+}
 
 
 
@@ -40,7 +40,7 @@ function primo($num)
 <form>
 <h4>Determinar si un valor es primo</h4>
  
-<input type="text" id="valor" value="" placeholder="introduce un valor numérico">
+<input type="text" id="primo" value="" placeholder="introduce un valor numérico">
 <input type="button" onclick="primo()" value="Primo">
  
 </form>
