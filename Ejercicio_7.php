@@ -8,19 +8,21 @@
 <?php
 for ($i=1; $i<=100; $i++) {
     if (primo($i)) {
+        echo "<br>El número ".$num." es primo";
     } else {
+        echo "<br>El número ".$num." no es primo";
+
        
     }
 }
 function primo($num)
 {
     if ($num == 2 || $num == 3 || $num == 5 || $num == 7) {
-        echo "<br>El número ".$num." es primo";
+       
         
        return True;
     } else {
-        echo "<br>El número ".$num." no es primo";
-
+        
         // comprobamos si es par
         if ($num % 2 != 0) {
             // comprobamos solo por los impares
